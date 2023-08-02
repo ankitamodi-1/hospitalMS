@@ -28,3 +28,4 @@ class AdminController extends Controller
         return redirect('login')->with('error', 'Oppes! You have entered invalid credentials');
     }
 }
+
